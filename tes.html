@@ -11,6 +11,8 @@
   <body>
     
       <div id="app">
+  
+<template>
   <div class="page-container md-layout-column">
     <md-toolbar class="md-primary">
       <md-button class="md-icon-button" @click="showNavigation = true">
@@ -87,14 +89,14 @@
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.
     </md-content>
   </div>
+</template>
 </div>
-
 <script>
   export default {
     name: 'Temporary',
     data: () => ({
       showNavigation: false,
-      showSidepanel: true
+      showSidepanel: false
     })
   }
 </script>
@@ -117,7 +119,8 @@
     padding: 16px;
   }
 </style>
-   
+        
+
 
     <script src="https://unpkg.com/vue"></script>
     <script src="https://unpkg.com/vue-material"></script>
